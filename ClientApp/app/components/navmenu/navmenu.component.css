@@ -1,0 +1,138 @@
+li .glyphicon {
+    margin-right: 10px;
+}
+
+/* Keep the nav menu independent of scrolling and on top of other items */
+.main-nav {
+    /*border-right: solid 3px;*/
+    /*border-top: solid 3px;*/
+    border-color: black;
+    position: fixed;
+    top: 127px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    width: 20% !important;
+}
+
+.navbar .navbar-inverse {
+    background-image: url(../../../../wwwroot/images/navbarpic.jpg);
+    background-color: none;
+}
+
+/*Hero A Tag Id's*/
+#spider {
+    color: red;
+}
+
+#black {
+    color: black;
+}
+
+#ironMan {
+    color: yellow;
+}
+
+#hulk {
+    color: limegreen;
+}
+
+#wolverine {
+    color: dodgerblue;
+}
+
+#thor {
+    color: grey;
+}
+
+#capAmerica {
+    color: white;
+}
+
+/*Hover effects*/
+#capAmerica:hover, #capAmerica:active {
+    border-bottom: 2px solid white;
+}
+
+#hulk:hover, #hulk:active {
+    border-bottom: 2px solid limegreen;
+}
+
+#thor:hover, #thor:active {
+    border-bottom: 2px solid grey;
+}
+
+#black:hover, #black:active {
+    border-bottom: 2px solid black;
+}
+
+#spider:hover, #spider:active {
+    border-bottom: 2px solid red;
+}
+
+#wolverine:hover, #wolverine:active {
+    border-bottom: 2px solid dodgerblue;
+}
+
+#ironMan:hover, #ironMan:active {
+    border-bottom: 2px solid yellow;
+}
+label:hover {
+    border-spacing: 0;
+    font-size: 18px;
+}
+/*Icons*/
+.icon {
+    width: 30px;
+    height: 25px;
+}
+
+.hulkIcon {
+    width: 30px;
+    height: 25px;
+}
+
+.navbar-brand {
+    align-content:center;
+    width: 95%;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    /* On small screens, convert the nav menu to a vertical sidebar */
+    .main-nav {
+        height: 100%;
+        width: calc(25% - 20px);
+    }
+    .navbar {
+        border-radius: 0px;
+        border-width: 0px;
+        height: 100%;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-collapse {
+        border-top: 1px solid #444;
+        padding: 0px;
+    }
+    .navbar ul {
+        float: none;
+    }
+    .navbar li {
+        float: none;
+        font-size: 15px;
+        margin: 6px;
+    }
+    .navbar li a {
+        padding: 10px 16px;
+        border-radius: 4px;
+    }
+    .navbar a {
+        /* If a menu item's text is too long, truncate it */
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

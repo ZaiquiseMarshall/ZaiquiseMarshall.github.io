@@ -1,0 +1,62 @@
+<div class='main-nav'>
+    <div class='navbar navbar-inverse'>
+        <div class='navbar-header'>
+            <img class='navbar-brand' src="../../../../wwwroot/images/marvel.jpg" [routerLink]="['/home']"/>
+        </div>
+        <div class='clearfix'></div>
+        <div class='navbar-collapse collapse'>
+            <ul class='nav navbar-nav'>
+                <!----Captain America---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/captainamerica']">
+                        <img class="icon" src="../../../../wwwroot/icon/capA.png"/>
+                        <label id="capAmerica"> Captain America</label> 
+                    </a>
+                </li>
+                <!----Hulk---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/hulk']">
+                        <img class="hulkIcon" src="../../../../wwwroot/icon/hulk.png"/>
+                        <label id="hulk" > Hulk</label> 
+                    </a>
+                </li>
+                <!----Thor---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/thor']">
+                        <img class="icon" src="../../../../wwwroot/icon/thor.png" />
+                        <label id="thor"> Thor</label>
+                    </a>
+                </li>
+                
+                <!----Wolverine---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/wolverine']">
+                        <img class="icon" src="../../../../wwwroot/icon/wolverine.png" /> 
+                        <label id="wolverine"> Wolverine</label>
+                    </a>
+                </li>
+                <!----Iron Man---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/iron_man']">
+                        <img class="icon" src="../../../../wwwroot/icon/ironman.png" />
+                        <label id="ironMan"> Iron Man</label>
+                    </a>
+                </li>
+                <!----Black Panther---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/black_panther']">
+                        <img class="icon" src="../../../../wwwroot/icon/blackp.png" />
+                        <label id="black"> Black Panther</label>
+                    </a>
+                </li>
+                <!----Spider-Man---->
+                <li [routerLinkActive]="['link-active']">
+                    <a [routerLink]="['/spider-man']">
+                        <img class="icon" src="../../../../wwwroot/icon/spider.png" />
+                        <label id="spider"> Spider-Man</label>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+﻿#pageHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    padding: 0;
+}
